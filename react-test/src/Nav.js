@@ -10,8 +10,9 @@ const navStyle = {
 
     return (
         <nav>
-            <img alt="React-logo" width="60" src="https://miro.medium.com/max/500/1*cPh7ujRIfcHAy4kW2ADGOw.png"/>
+            
             <ul className="nav-links">
+            <img alt="React-logo" width="40" src="https://miro.medium.com/max/500/1*cPh7ujRIfcHAy4kW2ADGOw.png"/>
                 <Link style={navStyle} to='/'>
                     <li>Home</li>
                 </Link>
